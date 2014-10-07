@@ -12,10 +12,6 @@
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
 		
 	</head>
-	<body onload="prettyPrint()">
-	
-			</header>
-		
 <article>
 <header>
 	
@@ -127,31 +123,4 @@ With approximately 100 more outlets than Open Eye, this place is the jam for com
 			
 		</div> <!-- // .wrap -->
 	</body>
-	<script>
-		$(document).ready(function() {
-			// Make images center
-			$('p:has(img)').css('text-align', 'center');
-			
-			// Add the image's title attribute as a caption
-			$('p:has(img)').append(function () {
-				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
-			});
-			
-			// Prettify code
-			$('code').addClass('prettyprint');
-			$('pre code').addClass('linenums');
-			
-			// Copy to clipboard with button
-			$('pre:has(code)').prepend(function(){
-				return '<div class="clip-btn">copy to clipboard</div>';
-			});
-			$('.clip-btn').zclip({
-				path:'/js/ZeroClipboard.swf',
-				copy: $(this).next('code').text(),
-				afterCopy: function(){
-					$(this).replaceWith('<div class="clip-btn">copied!');
-					}
-			});
-		});
-	</script>
 </html>
