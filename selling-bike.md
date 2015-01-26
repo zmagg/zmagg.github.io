@@ -22,7 +22,9 @@ I'd like $600 for it. It was last serviced at the lovely 718 cyclery about 200 m
 * 51 cm center-to-top length
 * My guess is that it would fit someone 5'5''->5'10''.  30 inch standover height (If you know your pants inseam, you want your inseam to at least clear this).
 
-**the components:**
+**the components**:
+
+
 * OLMO stamped fork.
 * Suntour Superbe brake levers (w/ pretty cut-outs!), brakes, and shifters.
 * Suntour Superbe cranks.
