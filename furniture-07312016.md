@@ -11,7 +11,6 @@ This chair is amazing. Chartreuse green with gold highlights. Classic wingback s
 
 3) 
 ![tables1](https://github.com/zmagg/zmagg.github.io/blob/master/images/IMG_4632.jpg)
-![tables2](https://www.dropbox.com/s/5mukv7x84qldzcb/afullview.jpg?dl=0)
 Selling both of these large worktables. These are amazing large workspaces to spread out your art / focus your mind on your small laptop with a nice blank space surrounding it. IKEA Gerton/Lerberg http://www.ikea.com/us/en/catalog/products/S09046428/. Great condition, very heavy. I did some finishing with some butcher block oil (linseed based). Bought new for $120 each. Yours for $100 each or $180 for both. 
 
 4) 
