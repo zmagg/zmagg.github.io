@@ -15,7 +15,7 @@ Selling both of these large worktables. These are amazing large workspaces to sp
 
 4) 
 ![dresser](https://github.com/zmagg/zmagg.github.io/blob/master/images/IMG_0848.JPG)
-Tiny two door dresser. Not much to say about it. The drawers are a little bit sticky. $10
+Tiny two door dresser. It's upside down in this photo, but not in real life, and you can place it right side up in your home. The drawers are a little bit sticky. $10
 
 5)
 ![desk](https://github.com/zmagg/zmagg.github.io/blob/master/images/IMG_4617.jpg)
