@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+<link href='http://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <meta stolen-from="http://css-tricks.com/5191-one-page-resume-site/">
+
+     <title>Maggie Zhou</title>
+
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Cabin, Helvetica, Sans-Serif; line-height: 22px;}
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 10px; }
+	@media print {
+        a { color: #000; text-decoration: none; border-bottom: 1px dotted #eee; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Cabin, Georgia, Serif; font-size: 16px; color:#000; font-weight: normal; margin: 0 15px 0 0; }
+	#sitelink { margin: 20px auto 2px auto; font-size: 10px; font-style: italic; text-align:center; }
+	
+        #objective p { font-family: Cabin, Georgia, Serif; font-style: italic; color: #000; }
+	.pict { float: right; margin: -30px 0 0 20px; width:250px; height:250px; }
+	}
+	@media screen {
+        a { color: #333; text-decoration: none; border-bottom: 1px dotted #eee; }
+        #sitelink { display: none; }
+	h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Cabin, Georgia, Serif; font-size: 16px; color: #333; font-weight: normal; margin: 0 15px 0 0; }
+        #objective p { font-family: Cabin, Georgia, Serif; font-style: italic; color: #333; }
+	#pic { display: none; }
+	.pict { float: right; margin: -30px 0 0 20px; width:250px; height:250px; background-image:url("rg-bw-sq2-250.jpg"); }
+	}
+        h1 { margin: 0 20px 14px 0; padding: 0 20px 14px 0; font-size: 42px; font-weight: 700; border-bottom: 1px solid #333; }
+        h2 { font-size: 20px; margin: 0 0 5px 0; position: relative; }
+	h3 { font-size: 16px; margin: 0 0 5px 0; position: relative; }
+	h3 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Cabin, Georgia, Serif; font-size: 16px; color: #333; font-weight: normal; margin: 0 15px 0 0; }
+        p { margin: 0 0 14px 0; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 0 17px; }
+        #objective { width: 470px; float: left; }
+	.education { font-style: italic; font-weight: 700; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 60px; border-right: 1px solid #333;  }
+	.education ul { width: 580px; float: right; }
+        dt { font-style: italic; font-weight: 700; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 200px; border-right: 1px solid #333;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 13px; }
+	.highlight { font-size: 105%; color: #113; }
+     </style>
+</head>
+
+<body>
+
+    <div id="page-wrap">
+	<div id="contact-info" class="vcard">
+            <h1 class="fn">Maggie Zhou</h1>
+            <p>
+                Email: <a class="email" href="mailto:emmbeezee@gmail.com">emmbeezee@gmail.com</a><br />
+		Twitter: <a class="twitter" href="http://twitter.com/zmagg">@zmagg</a><BR />
+		Web: <a class="url" href="http://zmagg.com">zmagg.com</a>
+            </p>
+        </div>
+                
+        <dl>
+            <dt>Work Experience</dt>
+            <dd>
+		<h2>Etsy</h2>
+		<h3>Senior Software Engineer<span>Nov 2015 - present</h3>
+		<h3>Software Engineer<span>Dec 2013 - Nov 2015</h3>
+		<ul>
+			<li>Technical lead of a five engineer team tasked with migrating live customer orders data to a new data store while maintaining a high availability platform for buyers to checkout on Etsy.</li>
+			<li>Redesigned our database sharding architecture. As a team of four, we reduced a two-months per year operations task to one-week per year and stopped routine maintenance on our storage layer from locking sellers out from Etsy. I gave a talk <a href="https://speakerdeck.com/zmagg/just-shard-it">[link]</a> about this project at ScaleConf 2015 and Percona 2015.</li>
+			<li>Member of the five-person Architecture Review Working group, where we help steer Etsy's collective technical decision making, with an emphasis on continuous learning. I gave a talk <a href="https://speakerdeck.com/zmagg/surviving-technology-transitions-adding-and-more-importantly-removing-tools-from-an-existing-stack">[link]</a> about some of Etsy's practices around this at OSCON Amsterdam 2015.
+			<li>Member of a web infrastructure team responsible for building out, maintaining, and debugging Etsy's web production software. Smaller projects included: designed an active cache invalidation system for performance critical requests to an edge datacenter, standardized the DSL of the internal API framework, engineered our Graphite/StatsD metrics collection to be resilient to spikes and increased traffic.</li>
+		</ul>
+		<br>
+                <h2>Google<span>Aug 2011 - June 2013</span></h2>
+		<h3>Commerce, Software Engineer</h3>
+                <ul>
+			<li>Full stack (Javascript/Java/MySQL/on-call) web development for new product launch.</li>
+			<li>Designed and rewrote batch map-reduce job that publishes Offers data to
+			different indexes. New design allowed independent teams to easily hook into the
+			framework and specify their own publish specs.</li>
+			<li>Led the Offers Publisher team (6 people) to 2nd highest Google testing certification</li>
+			<li>Converted a prototype of an experimental logistic regression forecasting engine for Offers sales to a full deployment serving 3 clients.
+			 Managed the lifetime and sunset of the service.</li>
+                </ul>
+            
+            <dd class="clear"></dd>
+
+
+<dt class="school education">Education</dt>
+<dd>
+<h2><a href="http://www.unc.edu" class="institution">University of North Carolina at Chapel Hill</a> <span class="dates">2007 - 2011</span></h2></dd>
+<dd><abbr title="Bachelor of Science with Honors in Computer Science">B.S. with Honors in Computer Science</abbr></dd>
+<dd class="clear"></dd>
+	</dl>
+
+<dt class="school education">Misc.</dt>
+<dd>
+<h2><a href="http://www.bangbangcon.com" class="institution">!!Con</a></h2></dd>
+<dd><h3>Co-founder, Organizer<span>2014, 2015</span></h3>
+<ul>Cofounded !!Con (a conference to celebrate the joyous, exciting, and surprising moments in computing). Organized for two years. The conference is still going strong.</ul>
+<BR>
+<dd>
+</dl>
+</html>
